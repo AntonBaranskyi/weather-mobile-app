@@ -30,6 +30,10 @@ export const Weather = () => {
         {Math.floor(weather.main.temp)}
         {temperatureType === Temperature.METRIC ? '℃' : '℉'}
       </Text>
+      <Text style={styles.feelsLike}>
+        Feels like : {weather.main.feels_like}{' '}
+        {temperatureType === Temperature.METRIC ? '℃' : '℉'}
+      </Text>
     </View>
   );
 };
@@ -46,6 +50,10 @@ const styles = StyleSheet.create({
 
   cityTemp: {
     fontSize: 64,
+    color: '#fff',
+  },
+  feelsLike: {
+    fontSize: 24,
     color: '#fff',
   },
 });
