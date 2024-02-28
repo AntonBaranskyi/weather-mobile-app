@@ -39,4 +39,3 @@ export const client = {
   get: <T>(url: string) => request<T>(url),
 };
 
-// https://api.openweathermap.org/data/2.5/weather?q=Poltava&appid=681f277cd86cc6838a06a70584831740&units=metric

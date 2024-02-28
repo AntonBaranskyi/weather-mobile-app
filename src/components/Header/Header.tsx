@@ -68,6 +68,6 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    backgroundColor: 'green', // Змініть на ваш колір фону
+    backgroundColor: 'green',
   },
 });
